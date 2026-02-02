@@ -13,4 +13,4 @@ I am a Computer Science student at the University of Houston.
 
 - Department of Computer Science at the University of Houston: https://www.uh.edu/nsm/computer-science/
 - LinkedIn: https://www.linkedin.com/in/aditya-pundhir-a509213a8/
-- [Download my Resume (PDF)]()
+- [Download my Resume (PDF)](/files/resume.pdf)

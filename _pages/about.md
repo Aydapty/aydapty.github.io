@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-# Name: Aditya Pundhir
+# Aditya Pundhir
 
 ![Profile Picture](/images/temporary_profile_picture.jpg)
 

@@ -23,11 +23,15 @@ redirect_from:
     width: 100% !important;
   }
 
-  /* Force the inner text and links inside the header/footer to left-align */
+  /* Pull the inner structures slightly past the body alignment layout grid */
   .masthead__inner, .page__footer-inner {
-    margine-left: -1vw !important;
     padding-left: 0 !important;
-    text-align: left !important;
+    max-width: 100% !important;
+  }
+
+  .masthead__menu, .page__footer-inner {
+    position: relative !important;
+    left: -20px !important; /* Adjust this pixel number to shift it further left or right */
   }
 
 /* --- PROFILE PICTURE LAYOUT SYSTEM --- */

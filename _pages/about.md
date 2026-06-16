@@ -29,6 +29,32 @@ redirect_from:
     padding-left: 0 !important;
     text-align: left !important;
   }*/
+
+/* --- PROFILE PICTURE LAYOUT SYSTEM --- */
+
+/* Desktop Screens: Floating on the right side */
+@media (min-width: 769px) {
+  .fixed-profile-pic {
+    position: fixed !important;
+    top: 15vh !important;       /* Space from top of screen viewport */
+    right: 5vw !important;      /* Space from right of screen viewport */
+    width: 180px !important;    /* Size on desktop */
+    border-radius: 8px !important; /* Soft rounded corners */
+    z-index: 999 !important;    /* Keeps it floating above text */
+  }
+}
+
+/* Mobile/Tablet Screens: Behave normally and stay inline with text */
+@media (max-width: 768px) {
+  .fixed-profile-pic {
+    position: relative !important;
+    display: block !important;
+    margin: 20px 0 !important;   /* Spacing above and below the photo */
+    width: 150px !important;     /* Slightly smaller for smaller screens */
+    max-width: 100% !important;
+    border-radius: 8px !important;
+  }
+}
 </style>
 
 # Aditya Pundhir
@@ -36,6 +62,10 @@ redirect_from:
 <!--
 ![Profile Picture](/images/temporary_profile_picture.jpg)
 -->
+
+<html>
+  <img src="/images/temporary_profile_picture.jpg" alt="Profile Picture" class="fixed-profile-pic">
+</html>
 
 ## About Me:
 - (Coming soon...)

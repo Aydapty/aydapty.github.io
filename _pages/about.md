@@ -12,7 +12,7 @@ redirect_from:
   /* Force a maximum width on the entire page viewport */
   html, body {
     max-width: 1100px !important;
-    margin: 10vh !important;
+    margin: 3vh auto 10vh auto !important;
     position: relative;
   }
   
@@ -21,6 +21,13 @@ redirect_from:
     left: 0 !important;
     right: 0 !important;
     width: 100% !important;
+  }
+
+  /* Force the inner text and links inside the header/footer to left-align */
+  .masthead__inner, .page__footer-inner {
+    margin: 0 !important;
+    padding-left: 0 !important;
+    text-align: left !important;
   }
 </style>
 

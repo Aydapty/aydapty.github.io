@@ -23,12 +23,12 @@ redirect_from:
     width: 100% !important;
   }
 
-  /* Force the inner text and links inside the header/footer to left-align */
+  /* Force the inner text and links inside the header/footer to left-align 
   .masthead__inner, .page__footer-inner {
     margin: 0 !important;
     padding-left: 0 !important;
     text-align: left !important;
-  }
+  }*/
 </style>
 
 # Aditya Pundhir
@@ -37,29 +37,30 @@ redirect_from:
 ![Profile Picture](/images/temporary_profile_picture.jpg)
 -->
 
-## About Me
+## About Me:
 - (Coming soon...)
 
-## Coursework
+## Coursework:
 - (Coming soon...)
 
-## Education
+## Education:
 - High School Diploma, Seven Lakes High School (2023)
 - B.S. in Computer Science, University of Houston (Spring 2027 Expected)
 
-## Technical Skills
+## Technical Skills:
 - (Coming soon...)
 
-## Projects
-### Personal
+## Projects:
+### Personal:
 - (Coming soon...)
+
 ### Professional/Academic:
 - (Coming soon...)
 
-## Links
+## Links:
 - [LinkedIn](https://www.linkedin.com/in/aditya-pundhir-a509213a8/)
 - [GitHub](https://github.com/Aydapty)
 - [Resume Download (PDF)](/files/AdityaPundhirResume2.pdf)
 
-## Additional Info
-- Department of Computer Science at the University of Houston: https://www.uh.edu/nsm/computer-science/
+## Additional Info:
+- [Department of Computer Science at the University of Houston](https://www.uh.edu/nsm/computer-science/)

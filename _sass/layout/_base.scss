@@ -364,9 +364,17 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
     }
   }
 
-  /* Custom layout fix to prevent screen hugging */
-.wrapper {
-  max-width: 1200px;  /* The standard max-width for Minimal Mistakes */
-  margin: 0 auto;     /* Centers the entire page content */
-  padding: 0 20px;    /* Adds side margins so text doesn't touch the screen edge */
+/* Custom AcademicPages Layout Overhaul */
+#main, 
+.masthead__inner, 
+.page__footer-inner {
+  max-width: 1024px !important; /* Limits width to a professional academic standard */
+  margin: 0 auto !important;     /* Centers the navigation, body, and footer completely */
+  padding: 0 20px !important;    /* Adds uniform side padding so text never touches the screen edge */
+}
+
+/* Ensure the top navigation bar header centers nicely */
+.masthead {
+  border-bottom: 1px solid var(--global-border-color);
+  width: 100%;
 }

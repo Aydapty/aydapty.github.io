@@ -25,7 +25,7 @@ redirect_from:
 
   /* Force the inner text and links inside the header/footer to left-align */
   .masthead__inner, .page__footer-inner {
-    margin: 0 auto 0 15vw !important;
+    margine-left: -1vw !important;
     padding-left: 0 !important;
     text-align: left !important;
   }

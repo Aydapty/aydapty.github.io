@@ -13,6 +13,7 @@ redirect_from:
   html, body {
     max-width: 1100px !important;
     margin: 10vh auto 10vh 20vw !important;
+    position: relative;
   }
   
   /* Reset background layout frames to cleanly match the centered body 

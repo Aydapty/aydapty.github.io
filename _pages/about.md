@@ -16,11 +16,16 @@ redirect_from:
     position: relative;
   }
   
-  /* Reset background layout frames to cleanly match the centered body */
+  /* Keep the background lines stretching fully across the container */
   .masthead, .page__footer {
-    left: auto !important;
-    right: 15vw !important;
+    left: 0 !important;
+    right: 0 !important;
     width: 100% !important;
+  }
+
+  /* Shift only the inner text contents slightly to the left */
+  .masthead__inner, .page__footer-inner {
+    transform: translateX(-3vw) !important; /* Adjust this value to shift text left or right */
   }
 
 /* --- PROFILE PICTURE LAYOUT SYSTEM --- */

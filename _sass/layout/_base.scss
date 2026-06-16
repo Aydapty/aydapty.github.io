@@ -364,17 +364,14 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
     }
   }
 
-/* Custom AcademicPages Layout Overhaul */
-#main, 
-.masthead__inner, 
-.page__footer-inner {
-  max-width: 1024px !important; /* Limits width to a professional academic standard */
-  margin: 0 auto !important;     /* Centers the navigation, body, and footer completely */
-  padding: 0 20px !important;    /* Adds uniform side padding so text never touches the screen edge */
+/* Universal AcademicPages Centering Overhaul */
+body {
+  padding-left: max(20px, calc((100vw - 1100px) / 2)) !important;
+  padding-right: max(20px, calc((100vw - 1100px) / 2)) !important;
 }
 
-/* Ensure the top navigation bar header centers nicely */
-.masthead {
-  border-bottom: 1px solid var(--global-border-color);
-  width: 100%;
+.masthead, .page__footer {
+  left: 0;
+  right: 0;
+  width: auto !important;
 }

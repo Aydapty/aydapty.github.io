@@ -19,7 +19,7 @@ redirect_from:
   /* Allow background lines to span perfectly from edge to edge */
   .masthead, .page__footer {
     left: auto !important;
-    right: 15vw !important;
+    right: 5vw !important;
     width: 115% !important;
   }
 

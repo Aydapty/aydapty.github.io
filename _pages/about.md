@@ -19,7 +19,7 @@ redirect_from:
   /* Reset background layout frames to cleanly match the centered body */
   .masthead, .page__footer {
     left: auto !important;
-    right: 20vw !important;
+    right: 13vw !important;
     width: 100% !important;
   }
 

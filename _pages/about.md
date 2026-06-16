@@ -15,7 +15,7 @@ redirect_from:
 -->
 
 ## Education:
-- B.S. in Computer Science, University of Houston (Fall 2026 Expected)
+- B.S. in Computer Science, University of Houston (Spring 2027 Expected)
 - High School Diploma, Seven Lakes High School (2023)
 
 ## Additional Info

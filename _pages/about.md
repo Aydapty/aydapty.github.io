@@ -9,30 +9,6 @@ redirect_from:
 ---
 
 <style>
-  /* Force a maximum width on the entire page viewport */
-  html, body {
-    max-width: 1100px !important;
-    margin: 2vh auto 10vh 2vw !important;
-    position: relative;
-  }
-  
-  /* Allow background lines to span perfectly from edge to edge */
-  .masthead, .page__footer {
-    left: 0 !important;
-    right: 0 !important;
-    width: 100% !important;
-  }
-
-  /* Force the text links inside them to shift leftward */
-  .masthead__inner, .page__footer-inner {
-    padding-left: 0 !important;
-    margin-left: 0 !important;
-  }
-
-  .masthead__menu, .page__footer-inner {
-    padding-right: 4vw !important; /* Forces the text leftward inside the full line */
-  }
-
 /* --- PROFILE PICTURE LAYOUT SYSTEM --- */
 
 /* Desktop Screens: Floating on the right side */

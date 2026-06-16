@@ -9,14 +9,17 @@ redirect_from:
 ---
 
 <style>
-  #main, 
-  .masthead__inner, 
-  .page__footer-inner {
+  /* Force a maximum width on the entire page viewport */
+  html, body {
     max-width: 1100px !important;
     margin: 0 auto !important;
-    padding: 0 30px !important;
+    position: relative;
   }
-  .masthead {
+  
+  /* Reset background layout frames to cleanly match the centered body */
+  .masthead, .page__footer {
+    left: 0 !important;
+    right: 0 !important;
     width: 100% !important;
   }
 </style>

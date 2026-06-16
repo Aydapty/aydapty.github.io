@@ -16,12 +16,12 @@ redirect_from:
     position: relative;
   }
   
-  /* Reset background layout frames to cleanly match the centered body 
+  /Reset background layout frames to cleanly match the centered body 
   .masthead, .page__footer {
     left: 0 !important;
     right: 0 !important;
     width: 100% !important;
-  }*/
+  }
 </style>
 
 # Aditya Pundhir

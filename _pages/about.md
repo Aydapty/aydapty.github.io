@@ -12,16 +12,15 @@ redirect_from:
   /* Force a maximum width on the entire page viewport */
   html, body {
     max-width: 1100px !important;
-    margin: 50vh auto 10vh 20vw !important;
-    position: relative;
+    margin: 10vh auto 10vh 20vw !important;
   }
   
-  /* Reset background layout frames to cleanly match the centered body */
+  /* Reset background layout frames to cleanly match the centered body 
   .masthead, .page__footer {
     left: 0 !important;
     right: 0 !important;
     width: 100% !important;
-  }
+  }*/
 </style>
 
 # Aditya Pundhir

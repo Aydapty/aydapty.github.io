@@ -16,16 +16,21 @@ redirect_from:
     position: relative;
   }
   
-  /* Keep the background lines stretching fully across the container */
+  /* Allow background lines to span perfectly from edge to edge */
   .masthead, .page__footer {
     left: 0 !important;
     right: 0 !important;
     width: 100% !important;
   }
 
-  /* Shift only the inner text contents slightly to the left */
+  /* Force the text links inside them to shift leftward */
   .masthead__inner, .page__footer-inner {
-    transform: translateX(-3vw) !important; /* Adjust this value to shift text left or right */
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .masthead__menu, .page__footer-inner {
+    padding-right: 4vw !important; /* Forces the text leftward inside the full line */
   }
 
 /* --- PROFILE PICTURE LAYOUT SYSTEM --- */

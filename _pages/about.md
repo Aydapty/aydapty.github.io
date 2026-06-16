@@ -12,7 +12,7 @@ redirect_from:
   /* Force a maximum width on the entire page viewport */
   html, body {
     max-width: 1100px !important;
-    margin: 50 auto 50 20px !important;
+    margin: 50vh auto 10vh 20vw !important;
     position: relative;
   }
   

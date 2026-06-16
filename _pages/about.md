@@ -8,6 +8,19 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+  #main, 
+  .masthead__inner, 
+  .page__footer-inner {
+    max-width: 1100px !important;
+    margin: 0 auto !important;
+    padding: 0 30px !important;
+  }
+  .masthead {
+    width: 100% !important;
+  }
+</style>
+
 # Aditya Pundhir
 
 <!--

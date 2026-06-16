@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Aditya Pundhir | About & Portfolio"
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,7 +10,9 @@ redirect_from:
 
 # Aditya Pundhir
 
+<!--
 ![Profile Picture](/images/temporary_profile_picture.jpg)
+-->
 
 ## Education:
 - B.S. in Computer Science, University of Houston (Fall 2026 Expected)
@@ -19,4 +21,4 @@ redirect_from:
 ## Additional Info
 - Department of Computer Science at the University of Houston: https://www.uh.edu/nsm/computer-science/
 - LinkedIn: https://www.linkedin.com/in/aditya-pundhir-a509213a8/
-- [Resume Download (PDF)](/files/resume.pdf)
+- [Resume Download (PDF)](/files/AdityaPundhirResume2.pdf)

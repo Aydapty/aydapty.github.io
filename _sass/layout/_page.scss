@@ -399,3 +399,15 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* Universal AcademicPages Centering Overhaul */
+body {
+  padding-left: max(20px, calc((100vw - 1100px) / 2)) !important;
+  padding-right: max(20px, calc((100vw - 1100px) / 2)) !important;
+}
+
+.masthead, .page__footer {
+  left: 0;
+  right: 0;
+  width: auto !important;
+}

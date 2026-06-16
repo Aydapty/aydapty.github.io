@@ -399,29 +399,3 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
-
-/* Universal AcademicPages Centering Overhaul */
-body {
-  max-width: 1100px !important;
-  margin: 2vh auto 10vh 2vw !important;
-  position: relative;
-}
-
-/* Force the outer bars to span the full window width, edge-to-edge */
-.masthead, .page__footer {
-  left: 0 !important;
-  right: 0 !important;
-  width: 100% !important;
-}
-
-/* Shift ONLY the text/links leftward, leaving the background lines intact */
-.masthead__inner, .page__footer-inner {
-  padding-left: 0 !important;
-  margin-left: 0 !important;
-  
-  // This physically targets the inner link structure and slides it left
-  ul, .masthead__menu {
-    position: relative !important;
-    left: -13vw !important; // Adjust this value to match your body offset perfectly
-  }
-}

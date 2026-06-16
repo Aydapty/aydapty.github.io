@@ -9,6 +9,20 @@ redirect_from:
 ---
 
 <style>
+  /* Force a maximum width on the entire page viewport */
+  html, body {
+    max-width: 1100px !important;
+    margin: 2vh auto 10vh 2vw !important;
+    position: relative;
+  }
+  
+  /* Allow background lines to span perfectly from edge to edge */
+  .masthead, .page__footer {
+    left: auto !important;
+    right: 15vw !important;
+    width: 115% !important;
+  }
+
 /* --- PROFILE PICTURE LAYOUT SYSTEM --- */
 
 /* Desktop Screens: Floating on the right side */

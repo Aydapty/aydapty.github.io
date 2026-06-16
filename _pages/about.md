@@ -19,8 +19,8 @@ redirect_from:
   /* Allow background lines to span perfectly from edge to edge */
   .masthead, .page__footer {
     left: auto !important;
-    right: 15vw !important;
-    width: 100% !important;
+    right: 2vw !important;
+    width: 150% !important;
   }
 
 /* --- PROFILE PICTURE LAYOUT SYSTEM --- */
